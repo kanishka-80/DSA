@@ -19,7 +19,7 @@ int main(){
         bn=bn*10+r;
         n=n/2;
     }
-    cout<<rev(bn)/10;
+    cout<<rev(bn)<<endl;
     return 0;
 
 }

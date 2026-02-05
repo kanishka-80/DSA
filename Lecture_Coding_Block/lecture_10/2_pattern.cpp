@@ -9,28 +9,28 @@ int main(){
         for(int sp=1;sp<=n-i;sp++){//outer spaces
             cout<<"  ";
         }
-        cout<<"*";
+        cout<<"* ";
         //inner spaces
         for(int sp=1;sp<=2*i-3;sp++){
-            cout<<"   ";
+            cout<<"  ";
         }
         if(i!=1){
-            cout<<"*";
+            cout<<"* ";
         }
         cout<<endl;
         }
 
-     for(int i=1;i<=n;i++){
+     for(int i=2;i<=n;i++){
         for(int sp=1;sp<=n-i;sp++){//outer spaces
             cout<<"  ";
         }
-        cout<<"*";
+        cout<<"* ";
         //inner spaces
         for(int sp=1;sp<=2*i-3;sp++){
-            cout<<"   ";
+            cout<<"  ";
         }
         if(i!=1){
-            cout<<"*";
+            cout<<"* ";
         }
         cout<<endl;
         }
