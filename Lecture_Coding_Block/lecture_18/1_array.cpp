@@ -10,10 +10,19 @@ int main(){
     //3rd way
     int arr_b[]={1,3,2,4};
  
-    //read usinf for loop
+    //read using for loop
     int s=sizeof(arr)/sizeof(int);
     for(int i=0;i<s;i++){
         cout<<arr[i]<<" ";
     }
+     cout<<endl;
+    //update
+     for(int i=0;i<s;i++){
+        arr[i]+=i;
+    }
+    for(int i=0;i<s;i++){
+        cout<<arr[i]<<" ";
+    }
+
     return 0;
 }
