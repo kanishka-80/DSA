@@ -40,7 +40,7 @@ int main(){
     }
     cout<<endl;
     // to inser at from ending specific position
-    a.insert(a.end()-1,10);
+    a.insert(a.end()-1,9);
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
     }
