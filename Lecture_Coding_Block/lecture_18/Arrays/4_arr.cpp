@@ -12,7 +12,7 @@ int main(){
     cin>>val;
     for(int i=0;i<n;i++){
         if(arr[i]==val){
-            cout<<i+1<<" ";
+            cout<<i+1<<" "; // return position of element
             cout<<" no. is present "<<endl;
         }
     }
