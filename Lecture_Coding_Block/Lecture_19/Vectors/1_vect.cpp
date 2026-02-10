@@ -17,6 +17,7 @@ int main(){
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
     }
+    cout<<endl;
     // to delete
     a.pop_back();
     cout<<"size "<<a.size()<<endl;
@@ -25,9 +26,23 @@ int main(){
     for(int i=0;i<a.size();i++){
         cout<<a[i]<<" ";
     }
+    cout<<endl;
     //FIRST element
     cout<<"First element"<<a.front()<<endl;
     //LAST element
     cout<<"Last element"<<a.back()<<endl;
+
+    // to insert at from starting specific position
+    a.insert(a.begin()+2,10);
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+    // to inser at from ending specific position
+    a.insert(a.end()-1,10);
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
     return 0;
 }
