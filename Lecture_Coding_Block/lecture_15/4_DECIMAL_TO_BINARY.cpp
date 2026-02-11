@@ -15,11 +15,11 @@ int main(){
     cin>>n;
     int bn=1;
     while(n>0){
-        int r=n%10;
+        int r=n%2;
         bn=bn*10+r;
         n=n/2;
     }
-    cout<<rev(bn)<<endl;
+    cout<<rev(bn)/10<<endl;
     return 0;
 
 }
