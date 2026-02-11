@@ -39,4 +39,5 @@ if(factor==sum){
 else{
     cout<<"Not a Boston Number";
 }
+ return 0;
 }
