@@ -20,7 +20,8 @@ int main(){
    }
        
      
+    cout<<odd_sum<<endl;
+    cout<<even_sum<<endl;
     
-    cout<<even_sum<<" "<<odd_sum<<endl;
     return 0;
 }
