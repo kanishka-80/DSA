@@ -27,6 +27,7 @@ int main(){
         int inv=9-t;
        if(l==1 && inv==0){
          rev=rev*10+t;
+            l--;
         }
         if(inv>t){
             rev=rev*10+t;
