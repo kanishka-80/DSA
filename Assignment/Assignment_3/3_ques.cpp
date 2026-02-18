@@ -3,5 +3,8 @@
 using namespace std;
  // Inverse of number ex: 32145 -> 12543
  
- 
+ vector<int> convert(int n){
+    vector<int> number;
+    while(n!=0)
+ }
  
