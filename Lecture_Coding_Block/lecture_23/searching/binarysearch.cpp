@@ -27,4 +27,16 @@ int main(){
 
     return -1;  // element nahi mila
 
+    // int n,SE;
+    // cin>>n>>SE;
+    // int arr[n];
+
+    // for(int i=0;i<n;i++){
+    //     cin>>arr[i];
+    // }
+    // for(int i=0;i<n;i++){
+    //     if(arr[i]!=SE){
+    //         cout<<;
+    //     }
+    // }
     }
