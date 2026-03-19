@@ -49,9 +49,17 @@ int allocateBooks(vector<int> &arr, int n, int m){
     return ans; 
 }
 int main(){
-    vector<int> arr= {2,1,3,4};
-    int n=4, m=2;
+   int t;
+	cin>>t;
+	while(t--){
+		int n,m;
+	    cin>>n>>m;
 
-    cout<< allocateBooks(arr, n, m)<<endl;
+	    vector<int> arr(n);
+	    for(int i=0;i<n;i++){
+		   cin>>arr[i];
+	    }
+        cout<<allocateBooks(arr,n,m)<<endl;
+	}
     return 0;
 }
