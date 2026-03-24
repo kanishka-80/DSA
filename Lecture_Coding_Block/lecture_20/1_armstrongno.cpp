@@ -2,6 +2,7 @@
 #include<cmath>
 using namespace std;
 //code is correct but output is wrong
+//153= 1^3 + 5^3 + 3^3= 153
 int main(){
     int n,sum=0,temp,og;
     cin>>n;
