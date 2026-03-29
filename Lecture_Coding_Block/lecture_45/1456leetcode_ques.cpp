@@ -1,0 +1,38 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+    
+    string s;
+    cin>>s;
+
+    // bool isVowel(char c)
+    //     return c=='a' || c=='e' || c=='i' || c=='o' || c=='u';
+    // }
+
+   int k;
+   cin>>k;
+        int n = s.size();
+        int l = 0, r = 0;
+        int count = 0, ans = 0;
+
+        while(r < n){
+            // current character ko add kara hai 
+            if((s[r])) count++;
+
+            // container size maintain karni hai
+            if(r - l + 1 > k){
+                if((s[l])) count--;
+                l++;
+            }
+            // jab meri container size k ke equal ho jaaye
+            if(r - l + 1 == k){
+                ans = max(ans, count);
+            }
+
+            r++;
+        }
+
+        return ans;
+    }
