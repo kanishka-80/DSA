@@ -15,7 +15,7 @@ int main(){
     while(start <= end){
         int mid=start+(end-start)/2;
         if(a[mid]==target){
-            return mid;
+            cout<<mid;
         }
         if(a[mid]<target){
             start=mid+1;
