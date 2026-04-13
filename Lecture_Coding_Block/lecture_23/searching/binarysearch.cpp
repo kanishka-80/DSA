@@ -25,7 +25,7 @@ int main(){
         }
     }
 
-    return -1;  // element nahi mila
+    return -1;  // element nahi milaaa
 
     // int n,SE;
     // cin>>n>>SE;
